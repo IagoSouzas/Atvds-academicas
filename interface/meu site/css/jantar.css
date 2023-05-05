@@ -1,0 +1,105 @@
+body{
+    background:rgb(29, 27, 27);
+    margin: 2%;
+}
+
+nav {
+	display: flex;
+	width: 95vw;
+	height: 10vh;	
+}
+
+nav ul {
+	  list-style: none;
+	  justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+	  width: 91%;
+  }
+
+nav ul li {
+    margin: 0px 1% 100px 1%;
+    width:10%;
+	text-align: center;
+}
+
+ul, ol{
+    font-family: 'Segoe UI';
+}
+
+nav ul li a {
+	 color: #ffffff;
+     padding: 0;
+	 font-family: Arial;
+     text-decoration: none;
+     transition: all 0.6s;
+     width: 100%;
+     padding: 12px 0 12px;
+     display: block;
+     border-radius: 5px;
+    }
+
+nav ul li a:hover{
+  box-shadow: 0px 0px 30px 1px chartreuse;
+  transition: all 1s;
+  text-decoration:underline;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana;
+    margin-left: 5%;
+    width: 90%;
+    height: 5%;
+    color: azure;
+}
+
+h3{
+    text-align: center;
+    font-family: Verdana;
+    margin-left: 5%;
+    width: 90%;
+    height: 5%;
+    color: azure;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-family: arial;
+    width: 15%;
+    height: 5%;
+}
+
+#k1{
+    color: brown;
+    font-size: 150%;
+    width: 90%;
+    height: 5%;
+    text-align: center;
+}
+
+li{
+    color: azure;
+    font-family: inherit;
+}
+
+strong{
+    font-family: inherit;
+}
+
+main{
+    padding: 1%;
+    height: 10%;
+    background: rgb(73, 56, 61);
+    width: 60%;
+    align-items: center;
+    margin-left: 17vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

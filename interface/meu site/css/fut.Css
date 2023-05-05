@@ -1,0 +1,82 @@
+body{
+    background:  rgb(29, 27, 27);
+    margin: 2%;
+    background-image: url(cigarro.gif);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+
+nav {
+	display: flex;
+	width: 95vw;
+	height: 10vh;	
+}
+
+nav ul {
+	  list-style: none;
+	  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	  width: 91%;
+  }
+
+nav ul li {
+    margin: 0px 1% 100px 1%;
+    width:10%;
+	  text-align: center;
+}
+
+nav ul li a {
+	 color: #ffffff;
+   padding: 0;
+	 font-family: Arial;
+   text-decoration: none;
+   transition: all 0.6s;
+   width: 100%;
+   padding: 12px 0 12px;
+   display: block;
+   border-radius: 5px;
+}
+
+nav ul li a:hover{
+  box-shadow: 0px 0px 30px 1px chartreuse;
+  transition: all 1s;
+  text-decoration:underline;
+}
+
+
+h1{
+  text-align: center;
+  font-family: Verdana;
+  margin-left: 5%;
+  width: 90%;
+  height: 5%;
+  color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    border-width: 1px;
+    border-color: rgb(180, 112, 112);
+    border-style: solid;
+}
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4.5%;
+    height: 50vh;
+    width: 90%;
+    padding: 5px;
+}
+
+.video:hover{
+    box-shadow: 0px 0px 30px 1px rgb(202, 38, 38);
+    transition: 1s;
+}
